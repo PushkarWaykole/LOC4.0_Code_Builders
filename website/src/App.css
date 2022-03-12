@@ -20,7 +20,38 @@ body{
 }
 
 .searchBar{
-    width:50%;
-    border-radius:10px;
-    box-shadow: 2px 2px 6px grey;
+    width:70%;
+    margin-left: 200px
 }
+
+.card_body{
+    height:500px;
+    width:100%;
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    color:black;
+}
+.title{
+    font-size: 80px;
+}
+
+.content{
+    text-align: center;
+    width:40%;
+    margin:40px;
+    
+}
+.image{
+    margin-top: 50px;
+    height:300px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

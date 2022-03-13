@@ -13,7 +13,10 @@ function Login({handleChange,user,setUser}) {
 
     
     <div className='signIn'>
-        <h1 style={{fontSize:"60px",marginTop:"40px"}}>CodeLib 1.0</h1>
+        
+        <img src="https://github.com/PushkarWaykole/Sample-websites-created-by-me/blob/main/logo.jpeg?raw=true" alt="logo"/>
+        
+        
         <div className='form_components'>
         <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">

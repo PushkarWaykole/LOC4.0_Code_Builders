@@ -65,7 +65,7 @@ function User(props) {
   
     <div className='wrapper'>
       <h1>{props.user.email}</h1>
-      <p>Add and view your books</p>
+      <p className='add'>Add and view your books</p>
       <div className='main'>
 
         <div className='form-container'>

@@ -1,6 +1,10 @@
 .signIn{
 
-    background-color: rgb(238, 85, 29);
+    /* background-color: rgb(238, 85, 29); */
+    margin-top: 220px;
+    background:none;
+    height:500px;
+    /* width:500px; */
     text-align: center;
     padding:10px;
     display: flex;
@@ -17,7 +21,14 @@
     text-align: center;
 }
 body{
-    background: url("https://source.unsplash.com/1600x900/?books");
+    background: url("https://source.unsplash.com/1600x900/?books") ;
+    
+}
+
+.add{
+    font-size: larger;
+    font-size: 60px;
+    color:white;
 }
 
 .logo{
@@ -126,8 +137,8 @@ input{
     background:none;
 }
 .wrapper{
-    overflow-x: hidden;
-    overflow-y: auto;    
+    /* overflow-x: hidden;
+    overflow-y: auto;     */
 }
 
 .wrapper h1{

@@ -17,15 +17,12 @@ function Login({handleChange,user,setUser}) {
         <div className='form_components'>
         <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
-    {/* <Form.Label style={{textAlign:"center"}}>Email address</Form.Label> */}
     <Form.Control type="email" name="email" value={user.email} onChange={handleChange}      placeholder="Enter email" />
-    {/* <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
-    </Form.Text> */}
+    
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
-    {/* <Form.Label>Password</Form.Label> */}
+  
     <Form.Control type="password" name="password" value={user.password} onChange={handleChange} placeholder="Password" />
   </Form.Group>
   

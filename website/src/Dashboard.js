@@ -8,7 +8,7 @@ function Dashboard(props) {
   return (
     <div>
         <NavbarLib />
-        <h2>Welcome {props.user.email}</h2>
+        
         <SingleBooks handleChange={props.handleChange} books={props.books} />
         <h2></h2>
 
